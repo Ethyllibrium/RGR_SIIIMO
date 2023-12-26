@@ -1,0 +1,22 @@
+{
+  "id": "Нейронная сеть(8 -> 25 -> 5 -> 1)",
+  "name": "Прочность бетона",
+  "ТипМодели": "<class 'sklearn.linear_model._base.LinearRegression'>",
+  "ТребуетНормализованныеДанные": true,
+  "ТребуетСтандартизированныеДанные": false,
+  "НазваниеПризнаковВходных": [
+    "Cement",
+    "Blast Furnace Slag",
+    "Fly Ash",
+    "Water",
+    "Superplasticizer",
+    "Coarse Aggregate",
+    "Fine Aggregate",
+    "Age"
+  ],
+  "НазваниеПризнаковВыходных": [
+    "Concrete compressive strength"
+  ],
+  "R2": 0.874,
+  "RMSE": 0.0057
+}

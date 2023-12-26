@@ -1,0 +1,24 @@
+{
+  "id": "Линейная модель",
+  "name": "Прочность бетона",
+  "ТипМодели": "<class 'sklearn.linear_model._base.LinearRegression'>",
+  "ТребуетНормализованныеДанные": false,
+  "ТребуетСтандартизированныеДанные": false,
+  "НазваниеПризнаковВходных": [
+    "Cement",
+    "Blast Furnace Slag",
+    "Fly Ash",
+    "Water",
+    "Superplasticizer",
+    "Coarse Aggregate",
+    "Fine Aggregate",
+    "Age"
+  ],
+  "НазваниеПризнаковВыходных": [
+    "Concrete compressive strength"
+  ],
+  "R2": 0.625,
+  "RMSE": -8.555,
+  "dataset_name_for_train": "compresive_strength_concrete_PREPARED.csv",
+  "model_filename": "neural_model.h5"
+}

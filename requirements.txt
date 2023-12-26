@@ -1,7 +1,6 @@
 streamlit
-tensorflow 
+tensorflow
 pandas
 numpy
-pickle
 json
 sklearn
